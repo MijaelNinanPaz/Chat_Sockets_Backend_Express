@@ -1,0 +1,31 @@
+{
+  "name": "chat_sockets_backend_express",
+  "version": "1.0.0",
+  "description": "Socket chat backend app in Node.js using Express and socket.io",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MijaelNinanPaz/Chat_Sockets_Backend_Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MijaelNinanPaz/Chat_Sockets_Backend_Express/issues"
+  },
+  "homepage": "https://github.com/MijaelNinanPaz/Chat_Sockets_Backend_Express#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
