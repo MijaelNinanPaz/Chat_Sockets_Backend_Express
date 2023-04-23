@@ -14,7 +14,12 @@ const app = express();
 const server = http.createServer(app);
 const io = new SocketServer(server, {
   cors: {
-    origin: "https://delicate-swan-d311f8.netlify.app/",
+    origin: 
+    [
+      "https://delicate-swan-d311f8.netlify.app",
+      "https://chatsocketsreact.up.railway.app",
+      "http://127.0.0.1:5173"
+    ]
   },
 });
 /*************FOR DEV **************************/ 
